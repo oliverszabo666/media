@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap");
 *,
 *::before,
 *::after {
@@ -9,5 +10,101 @@
 
 body {
   border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: #24b374;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.background svg {
+  position: absolute;
+  right: 0;
+}
+
+.background .content .title h1 {
+  text-align: center;
+  color: #e8e9e6;
+  font-family: "Catamaran", sans-serif;
+  text-transform: uppercase;
+  padding-top: 30px;
+  font-size: 65px;
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+
+.background .content .content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 90%;
+  margin: 100px auto 0;
+}
+
+.background .content .science-container,
+.background .content .nature-container,
+.background .content .video-container {
+  width: 350px;
+  height: 480px;
+  padding: 25px;
+}
+
+.background .content .science-container .top,
+.background .content .nature-container .top,
+.background .content .video-container .top {
+  margin-bottom: 30px;
+}
+
+.background .content .science-container h2,
+.background .content .science-container h3,
+.background .content .nature-container h2,
+.background .content .nature-container h3,
+.background .content .video-container h2,
+.background .content .video-container h3 {
+  color: #dfa34e;
+}
+
+.background .content .science-container h2,
+.background .content .nature-container h2,
+.background .content .video-container h2 {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.background .content .science-container h3,
+.background .content .nature-container h3,
+.background .content .video-container h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.background .content .science-container p,
+.background .content .nature-container p,
+.background .content .video-container p {
+  width: 90%;
+  line-height: 1.7;
+}
+
+.background .content .science-container,
+.background .content .video-container {
+  background-color: #1f1c1c;
+}
+
+.background .content .science-container {
+  color: #e8e9e6;
+}
+
+.background .content .science-container h2 {
+  width: 50%;
+}
+
+.background .content .nature-container {
+  background-color: #e8e9e6;
 }
 /*# sourceMappingURL=style.css.map */
