@@ -37,6 +37,15 @@ body {
   font-weight: 100;
 }
 
+@media (max-width: 1000px) {
+  .background .content .title h1 {
+    text-align: left;
+    padding: 50px 10px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+
 .background .content .content-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,7 +57,7 @@ body {
   margin: 100px auto 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .background .content .content-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -63,6 +72,17 @@ body {
   width: 350px;
   height: 480px;
   padding: 25px;
+  margin: 0 20px 0;
+}
+
+@media (max-width: 1000px) {
+  .background .content .science-container,
+  .background .content .nature-container,
+  .background .content .video-container {
+    width: 80%;
+    height: 480px;
+    margin: 0 auto;
+  }
 }
 
 .background .content .science-container .top,
@@ -87,11 +107,27 @@ body {
   line-height: 2;
 }
 
+@media (max-width: 1000px) {
+  .background .content .science-container h2,
+  .background .content .nature-container h2,
+  .background .content .video-container h2 {
+    font-size: 18px;
+  }
+}
+
 .background .content .science-container h3,
 .background .content .nature-container h3,
 .background .content .video-container h3 {
   font-size: 25px;
   font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+  .background .content .science-container h3,
+  .background .content .nature-container h3,
+  .background .content .video-container h3 {
+    font-size: 21px;
+  }
 }
 
 .background .content .science-container p,
@@ -144,5 +180,11 @@ body {
 .background .under {
   color: #dfa34e;
   font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+  .background .under {
+    margin-left: 40px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
